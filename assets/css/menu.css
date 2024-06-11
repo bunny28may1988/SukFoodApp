@@ -1,0 +1,68 @@
+body{width: 99vw; height: 100vh;justify-content: center;align-items: center;overflow-x: hidden;}
+* {margin: 0px;padding: 0px;font-family: Garamond Georgia, 'Times New Roman', Times, serif;}
+header{display: flex;align-items: center;z-index: 5;padding: 20px 0px 20px 0px;
+width: 100vw;height: 20px;position: fixed;background-color: rgb(249, 234, 237);}
+header input{position: absolute;left: 10vw;border-radius: 10px;width: 15vw;font-size: 15px;
+border: 1px solid black;text-align: center;height: 25px;}
+header p{position: absolute;left: 40vw;width: 20vw;font-size: 40px;}
+header button{position: absolute;left: 80vw;background: transparent;font-size: 30px;border: none;}
+header button i{background: transparent;}
+
+#but{display: flex;flex-direction: column;width: 15vw;height: 80vh;justify-content: space-around;
+position: fixed;left: 10vw;top: 100px;}
+
+#Appetizers{position: absolute;left: 30vw;top: 100px;width: 35vw;display: flex;flex-direction: column;}
+#Soups_salads{position: absolute;left: 30vw;top: 100px;width: 35vw;display: none;flex-direction: column;}
+#Rice_items {position: absolute;left: 30vw;top: 100px;width: 35vw;display: none;flex-direction: column;}
+#Breads_rotis{position: absolute;left: 30vw;top: 100px;width: 35vw;display: none;flex-direction: column;}
+#Special_curries{position: absolute;left: 30vw;top: 100px;width: 35vw;display: none;flex-direction: column;}
+#Side_dishes{position: absolute;left: 30vw;top: 100px;width: 35vw;display: none;flex-direction: column;}
+#Deserts{position: absolute;left: 30vw;top: 100px;width: 35vw;display: none;flex-direction: column;}
+#Drinks{position: absolute;left: 30vw;top: 100px;width: 35vw;display: none;flex-direction: column;}
+#All{position: absolute;left: 30vw;top: 100px;width: 35vw; display: none;flex-direction: column;}
+#allitems{position: absolute;left: 30vw;top: 100px;width: 35vw;display: none;flex-direction: column;}
+
+#itemslist{display: none;}
+img{width: 100px; height: 100px;border-radius: 5px;}
+#items{display: flex;box-shadow: 0px 0px 25px black;border-radius: 5px;margin: 10px;
+align-items: center;}
+#items div{position: relative;left: 2vw; display: flex;flex-direction: column; width: 15vw;
+justify-content: space-around;gap: 10px;font-size: 20px;text-align: left;}
+#items button{height: 30px;position: absolute;right: 30px;font-size: 20px;padding: 3px;border-radius: 5px;
+background-color: rgb(250, 232, 235);color: red;border: 1px solid red;}
+
+#Appetizersb{background-color: rgb(250, 244, 245);color: red;border:1px solid red;
+font-size: 20px;padding: 3px;border-radius: 5px;box-shadow: 0px 0px 5px red;}
+#Soups_saladsb {background-color: white;color: black;box-shadow: 0px 0px 5px white;
+    border: 1px solid white;font-size: 20px;padding: 3px;border-radius: 5px;}
+#Rice_itemsb {background-color: white;color: black;box-shadow: 0px 0px 5px white;
+    border: 1px solid white;font-size: 20px;padding: 3px;border-radius: 5px;}
+#Breads_rotisb {background-color: white;color: black;box-shadow: 0px 0px 5px white;
+    border: 1px solid white;font-size: 20px;padding: 3px;border-radius: 5px;}
+#Special_curriesb {background-color: white;color:black;box-shadow: 0px 0px 5px white;
+    border: 1px solid white;font-size: 20px;padding: 3px;border-radius: 5px;}
+#Side_dishesb {background-color: white;color: black;box-shadow: 0px 0px 5px white;
+    border: 1px solid white;font-size: 20px;padding: 3px;border-radius: 5px;}
+#Desertsb {background-color: white;color: black;box-shadow: 0px 0px 5px white;
+    border: 1px solid white;font-size: 20px;padding: 3px;border-radius: 5px;}
+#Drinksb {background-color: white;color: black;box-shadow: 0px 0px 5px white;
+border: 1px solid white;font-size: 20px;padding: 3px;border-radius: 5px;}
+#Allb {background-color: white;color: black;box-shadow: 0px 0px 5px white;
+    border: 1px solid white;font-size: 20px;padding: 3px;border-radius: 5px;}
+.red{color: red;}
+.p{display: flex;width: 15vw;}
+
+#divcart{position: fixed;top: 100px;right: 4vw;width: 25vw;display: flex;justify-content: center;}
+#divcart p{font-size: 25px;padding: 3px;box-shadow: 0px 0px 10px rgb(2, 2, 102);width: 10vw;text-align: center;
+border-radius: 5px;background-color: rgb(249, 241, 242);border: 1px solid blue;}
+
+#cart{width: 25vw;position: fixed;right: 4vw;top: 150px;height:auto;display: none;flex-direction: column;gap: 10px;
+box-shadow: 0px 0px 10px blue;padding: 5px;border-radius: 5px;}
+#name{width: 15vw;float: left;font-size: 20px;}
+#price{font-size: 20px;color: red;float: left;width: 40px;text-align: center;}
+#min{margin: 0px 10px 0px 10px;float: left;}
+#cartp p{float: left;font-size: 20px;margin: 0px 10px 0px 0px;}
+
+#namet{width: 15vw;float: left;font-size: 20px;margin: 0px 10px 0px 0px;}
+#pricet{font-size: 20px;color: red;float: left;width: 40px;text-align: center;}
+#star{color: #d9b903;}

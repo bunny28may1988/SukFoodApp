@@ -1,0 +1,24 @@
+body{width: 100vw;height: 100vh;background-color: rgb(23, 23, 23);overflow: hidden;}
+*{margin: 0px;padding: 0px;}
+#photo{width: 150px;height: 150px;border-radius: 5px;}
+#intro{width: 20vw;height: auto;position: absolute;top: 30vh;
+display: flex;align-items: center;justify-content: center;flex-direction: column;gap: 10px;}
+nav p{position: absolute;width: 10vw;left: 30vw;}
+#but{position: absolute;left: 80vw;font-size: 20px;border-radius: 5px;background-color: darkgreen;
+color: white;text-decoration: none;padding: 3px;}
+
+#intro p{width: 20vw;font-size: 18px;text-align: center;font-family: 'Century Gothic' sans-serif;color: white;}
+#img1 {width: 30vw;height: 92vh;position: absolute;bottom: 0px;right: 0px;}
+
+#msg1{position: absolute;font-size: 80px;color: rgb(190, 224, 236);width: 70vw;z-index: 5;left: 10vw;
+height: 92vh;display: flex;flex-direction: column;justify-content: center;align-items: center;
+gap: 80px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#p1{animation: change 3s ease-in-out infinite;}
+#p2{animation: change 3s ease-in-out infinite;}
+@keyframes change {
+    0%{opacity: 0;}
+    10%{opacity: 1;}
+    90%{opacity: 1;}
+    100%{opacity: 0;}
+}
